@@ -154,20 +154,6 @@ h1 {
   letter-spacing: 0;
 }
 
-.hero-contact {
-  margin-bottom: 18px;
-  color: var(--ink);
-  font-size: clamp(18px, 2.5vw, 24px);
-  font-weight: 620;
-  line-height: 1.45;
-}
-
-.hero-contact span {
-  display: inline-block;
-  margin-inline: 10px;
-  color: var(--subtle);
-}
-
 .title {
   margin-bottom: 20px;
   color: var(--ink);
@@ -213,16 +199,6 @@ h1 {
 .profile span {
   color: var(--muted);
   font-size: 14px;
-}
-
-.profile button {
-  min-height: 38px;
-  margin-top: 4px;
-  border: 1px solid var(--accent-strong);
-  border-radius: 7px;
-  color: #fff;
-  background: var(--accent-strong);
-  cursor: pointer;
 }
 
 .summary {
@@ -486,10 +462,6 @@ h1 {
     align-items: center;
   }
 
-  .profile button {
-    grid-column: 1 / -1;
-  }
-
   .summary,
   .project-list,
   .project-list.compact {
@@ -522,14 +494,6 @@ h1 {
 
   h1 {
     font-size: 56px;
-  }
-
-  .hero-contact {
-    font-size: 16px;
-  }
-
-  .hero-contact span {
-    display: none;
   }
 
   .summary,
