@@ -154,6 +154,20 @@ h1 {
   letter-spacing: 0;
 }
 
+.hero-contact {
+  margin-bottom: 18px;
+  color: var(--ink);
+  font-size: clamp(18px, 2.5vw, 24px);
+  font-weight: 620;
+  line-height: 1.45;
+}
+
+.hero-contact span {
+  display: inline-block;
+  margin-inline: 10px;
+  color: var(--subtle);
+}
+
 .title {
   margin-bottom: 20px;
   color: var(--ink);
@@ -508,6 +522,14 @@ h1 {
 
   h1 {
     font-size: 56px;
+  }
+
+  .hero-contact {
+    font-size: 16px;
+  }
+
+  .hero-contact span {
+    display: none;
   }
 
   .summary,
