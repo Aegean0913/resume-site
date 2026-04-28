@@ -94,9 +94,9 @@ button {
 .intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 184px;
-  gap: 18px;
-  align-items: start;
-  padding: 22px 0 16px;
+  gap: 16px;
+  align-items: stretch;
+  padding: 16px 0 12px;
 }
 
 .intro-main,
@@ -114,7 +114,7 @@ button {
 .intro-main {
   position: relative;
   overflow: hidden;
-  padding: clamp(24px, 3.2vw, 34px);
+  padding: clamp(20px, 2.6vw, 28px);
 }
 
 .intro-main::before {
@@ -147,26 +147,26 @@ p {
 }
 
 h1 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   color: var(--ink);
-  font-size: clamp(46px, 6.2vw, 66px);
+  font-size: clamp(44px, 5.5vw, 58px);
   line-height: 1.02;
   letter-spacing: 0;
 }
 
 .title {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   color: var(--ink);
-  font-size: clamp(22px, 2.8vw, 30px);
+  font-size: clamp(21px, 2.5vw, 26px);
   font-weight: 680;
   line-height: 1.25;
 }
 
 .intro-text {
   max-width: 780px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .intro-contact {
@@ -221,12 +221,13 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  min-height: 100%;
+  padding: 14px;
 }
 
 .profile img {
-  width: 144px;
-  height: 186px;
+  width: 136px;
+  height: 176px;
   object-fit: cover;
   border: 1px solid var(--line-strong);
   border-radius: 7px;
@@ -234,8 +235,8 @@ h1 {
 
 .summary {
   position: relative;
-  margin: 16px 0 52px;
-  padding: clamp(18px, 2.5vw, 26px) clamp(22px, 3vw, 32px) clamp(20px, 2.8vw, 30px);
+  margin: 12px 0 26px;
+  padding: 16px clamp(20px, 2.8vw, 28px) 14px;
   overflow: hidden;
 }
 
@@ -255,8 +256,8 @@ h1 {
   align-items: end;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 14px;
-  padding-bottom: 12px;
+  margin-bottom: 4px;
+  padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -269,21 +270,20 @@ h1 {
 .summary-head h2 {
   margin-bottom: 0;
   color: var(--ink);
-  font-size: clamp(24px, 3.2vw, 34px);
+  font-size: clamp(22px, 2.6vw, 27px);
   line-height: 1.14;
 }
 
 .summary-pairs {
   display: grid;
-  gap: 10px;
 }
 
 .summary-pair {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.82fr);
-  gap: clamp(18px, 3vw, 36px);
-  align-items: stretch;
-  padding: 14px 0;
+  grid-template-columns: minmax(0, 1.04fr) minmax(300px, 0.96fr);
+  gap: clamp(16px, 2.6vw, 28px);
+  align-items: start;
+  padding: 10px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -293,14 +293,14 @@ h1 {
 
 .trait-item {
   display: grid;
-  grid-template-columns: 128px minmax(0, 1fr);
-  gap: 16px;
+  grid-template-columns: 106px minmax(0, 1fr);
+  gap: 14px;
   align-items: start;
 }
 
 .trait-item span {
   color: var(--accent-strong);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 760;
   line-height: 1.5;
 }
@@ -308,52 +308,31 @@ h1 {
 .trait-item p {
   margin: 0;
   color: var(--muted);
-  font-size: 15px;
-  line-height: 1.72;
+  font-size: 14px;
+  line-height: 1.55;
 }
 
 .capability-item {
-  display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  gap: 16px;
-  min-height: 100%;
-  padding: 16px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: linear-gradient(135deg, rgba(243, 241, 251, 0.72), rgba(255, 255, 255, 0.9) 44%, rgba(251, 244, 239, 0.7));
-}
-
-.capability-item span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border: 1px solid rgba(111, 106, 166, 0.18);
-  border-radius: 50%;
-  color: var(--accent-strong);
-  background: #fff;
-  font-size: 12px;
-  font-weight: 760;
-  line-height: 1;
+  padding-left: 14px;
+  border-left: 3px solid rgba(111, 106, 166, 0.22);
 }
 
 .capability-item h3 {
-  margin: 0 0 6px;
+  margin: 0 0 4px;
   color: var(--ink);
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.35;
 }
 
 .capability-item p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 14px;
-  line-height: 1.66;
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .section {
-  padding: 22px 0 58px;
+  padding: 10px 0 58px;
 }
 
 .section-head {
@@ -429,6 +408,17 @@ h1 {
 .company-scope {
   margin: 18px 0 4px;
   font-size: 15px;
+}
+
+.company-scope p {
+  margin-bottom: 8px;
+}
+
+.company-scope ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
 }
 
 .company-note {
@@ -549,12 +539,12 @@ h1 {
   }
 
   .intro {
-    padding-top: 24px;
+    padding-top: 16px;
     padding-bottom: 12px;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
 
   .project-list,
@@ -565,7 +555,7 @@ h1 {
   }
 
   .summary {
-    padding: 18px 16px 18px;
+    padding: 16px 14px 14px;
   }
 
   .summary::before {
@@ -575,7 +565,7 @@ h1 {
   .summary-head {
     display: grid;
     gap: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 
   .summary-head .kicker {
@@ -588,9 +578,7 @@ h1 {
   }
 
   .capability-item {
-    grid-template-columns: 34px minmax(0, 1fr);
-    gap: 12px;
-    padding: 16px;
+    padding-left: 12px;
   }
 
   .company,
