@@ -1,267 +1,776 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>黄怡静 | 产品经理简历</title>
-    <meta
-      name="description"
-      content="黄怡静，10年经验B端产品经理，企业级复杂系统、AI应用落地、流程引擎、权限中台与跨职能项目经验。"
-    >
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <header class="topbar">
-      <a class="logo" href="#top" aria-label="回到顶部">黄怡静</a>
-      <nav class="nav" aria-label="页面导航">
-        <a href="#summary">优势</a>
-        <a href="#experience">经历</a>
-        <a href="#skills">能力</a>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 产品经理系统化学习手册</title>
+  <style>
+    :root { color-scheme: light; --bg:#f7f7f4; --paper:#ffffff; --ink:#202124; --muted:#666b73; --line:#e5e2da; --accent:#0f766e; --accent-soft:#e7f4f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.75; }
+    .shell { max-width: 980px; margin: 0 auto; padding: 40px 20px 72px; }
+    .hero { padding: 42px 0 30px; border-bottom: 1px solid var(--line); }
+    .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 14px; font-weight: 700; }
+    .hero h1 { margin: 0; font-size: clamp(34px, 6vw, 58px); line-height: 1.08; letter-spacing: 0; }
+    .hero p { max-width: 680px; margin: 18px 0 0; color: var(--muted); font-size: 18px; }
+    main { background: var(--paper); margin-top: 28px; padding: 38px min(6vw, 58px); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 20px 50px rgba(42, 38, 28, 0.06); }
+    h1, h2, h3, h4 { line-height: 1.32; letter-spacing: 0; scroll-margin-top: 24px; }
+    main h1 { display: none; }
+    h2 { margin-top: 48px; padding-top: 10px; font-size: 28px; border-top: 1px solid var(--line); }
+    h3 { margin-top: 34px; font-size: 21px; }
+    h4 { margin-top: 24px; font-size: 18px; }
+    p { margin: 12px 0; }
+    ul, ol { padding-left: 1.35em; margin: 12px 0 18px; }
+    li { margin: 6px 0; }
+    blockquote { margin: 20px 0; padding: 16px 18px; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0; }
+    blockquote p { margin: 0; }
+    code { background: #f1f1ed; border: 1px solid #e4e2da; padding: 2px 5px; border-radius: 5px; font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: .92em; }
+    pre { overflow: auto; background: #1f2933; color: #f5f7fa; padding: 18px; border-radius: 8px; line-height: 1.6; }
+    pre code { background: transparent; color: inherit; border: 0; padding: 0; }
+    .table-wrap { overflow-x: auto; margin: 18px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+    th { background: #f6f5f0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
+    .footer { color: var(--muted); font-size: 14px; margin-top: 22px; text-align: center; }
+    @media (max-width: 720px) { .shell { padding: 24px 14px 48px; } main { padding: 26px 18px; } .hero { padding-top: 22px; } h2 { font-size: 24px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <p class="eyebrow">AI Product Manager Learning Manual</p>
+      <h1>AI 产品经理系统化学习手册</h1>
+      <p>从基础概念、产品设计、技术协作到面试表达，一份可以持续复习和扩展的学习资料。</p>
     </header>
-
-    <main id="top" class="page">
-      <section class="intro">
-        <div class="intro-main">
-          <h1>黄怡静</h1>
-          <p class="title">B端产品经理 / 企业信息化产品</p>
-          <p class="intro-text">
-            浙江大学背景，10年深耕企业级B端复杂系统，并具备 AI 应用落地实战经验（含5年小红书产品经历）。
-          </p>
-          <p class="intro-contact">
-            <span>Tel(WeChat)：13761578840</span>
-            <span>Email：huangyijing902@163.com</span>
-          </p>
-        </div>
-
-        <aside class="profile">
-          <img src="./assets/image2.jpeg" alt="黄怡静证件照">
-        </aside>
-      </section>
-
-      <section class="summary" id="summary" aria-label="核心优势">
-        <div class="summary-head">
-          <p class="kicker">Strengths</p>
-          <h2>核心能力与经验标签</h2>
-        </div>
-
-        <div class="summary-pairs" aria-label="个人特质与核心能力映射">
-          <article class="summary-pair">
-            <div class="trait-item">
-              <span>系统抽象</span>
-              <p>具备较强的复杂问题拆解与系统抽象能力，擅长在高约束场景中梳理关键矛盾，并通过清晰、低门槛的前端体验承接复杂的 B 端底层规则。</p>
-            </div>
-            <div class="capability-item">
-              <h3>复杂系统架构</h3>
-              <p>熟悉企业信息化底座类产品建设，具备 OA 流程引擎、RBAC 权限中台、数据权限、审批配置等复杂系统的产品架构与配置化设计经验。</p>
-            </div>
-          </article>
-
-          <article class="summary-pair">
-            <div class="trait-item">
-              <span>职能建模</span>
-              <p>关注真实ROI，具备职能域系统化建模能力，能在高规则密度场景中，梳理业务链路、识别关键控制点，抽象通用模型与产品能力，支撑业务产品的可持续扩展。</p>
-            </div>
-            <div class="capability-item">
-              <h3>跨域项目攻坚</h3>
-              <p>资深 Scrum Master / PMP。涉猎财务、行政、采购、税务等多职能域，能在高压或无 Leader 的资源匮乏期独立强推复杂项目落地。</p>
-            </div>
-          </article>
-
-          <article class="summary-pair">
-            <div class="trait-item">
-              <span>AI边界<br>Anti-FOMO</span>
-              <p>追求真实业务价值落地，拒绝盲目跟风。能精准划定 LLM 与传统工程的边界，让 AI 真正为业务闭环服务。</p>
-            </div>
-            <div class="capability-item">
-              <h3>AI 应用实战</h3>
-              <p>紧跟大模型趋势并具备成功落地经验。熟练掌握 LLM Prompt Engineering、Skill 建设、RAG 知识库与个性化推荐框架设计，能快速将 AI 技术转化为业务生产力。</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="experience">
-        <div class="section-head">
-          <h2>工作经历与项目</h2>
-          <p class="kicker">Experience</p>
-        </div>
-
-        <div class="company-list">
-          <article class="company">
-            <div class="company-head">
-              <div>
-                <h3>小红书</h3>
-                <p>产品经理</p>
-              </div>
-              <time>2021.07 - 至今 <span>4年10个月+</span></time>
-            </div>
-            <div class="company-scope">
-              <p>作为多职能线接口人，统筹信息化两大核心板块的产品规划与架构演进：</p>
-              <ul>
-                <li>信息化底座：OA 流程引擎、RBAC 权限中台、企业门户（应用广场/公告）及交接中台等通用基础设施。</li>
-                <li>多职能业务：采购（立项及全链路迭代）、行政（AI订餐/积分系统）、财务（自动入账/发票共享）及税务（研发加计扣除）等复杂业务线的系统架构。</li>
-              </ul>
-            </div>
-            <p class="company-note">以下节选 4 个代表性项目，未覆盖全部项目经历。</p>
-
-            <div class="project-list">
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>AI 智能订餐助手</h4>
-                  <span>行政域 · AI应用落地</span>
-                </div>
-                <ul>
-                  <li>背景与破局：解决集中订餐时员工面对50+选项的决策瘫痪。确立“个性化推荐”心智，取代常规搜索。</li>
-                  <li>AI 与工程边界划定：敏锐识别纯 LLM 处理大量离散信息的瓶颈（速度慢、幻觉）。主动重划边界——让工程规则接管评分、排序与过滤，让 AI 退回最擅长的“语义理解+特征识别”。</li>
-                  <li>架构落地与成果：独立设计 AI 推荐策略，自主编写调优核心 Prompt。推荐下单转化率达74%，用户周均下单频次提升20%，完成从“决策辅助”到“自动托管”的跃迁。</li>
-                </ul>
-              </section>
-
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>流程配置平台升级</h4>
-                  <span>底座域 · 效能破局</span>
-                </div>
-                <ul>
-                  <li>逆境重构：在业务初期团队无Leader背景下，主动发起立项。攻克存量重构、复杂条件配置抽象等深水区，用5个月独立带领产研完成系统0-1升级。</li>
-                  <li>业务赋能与成果：将纯技术化系统重构为面向业务的“自助产品”，实现90%+单据由业务方15分钟内自主配置。上线后流程总量暴增447%（至1689条），成功将底层系统转化为高频业务中台。</li>
-                </ul>
-              </section>
-
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>核心权限中台重构</h4>
-                  <span>底座域 · 权限治理</span>
-                </div>
-                <ul>
-                  <li>架构重构与生态收敛：接手并重构底层权限结构，推动150+内部系统入驻，实现核心业务系统权限统一管理。设计跨系统全局规则复用方案，将业务系统数据权限单次配置成本从2人日（coding）降至0.1人日（纯配置）。</li>
-                  <li>风险全控制：建立权限全生命周期（入离调转）自动化处理机制，解放系统端运维管理人力，节省10人日/月。</li>
-                  <li>C 端思维重塑 B 端体验：打通“触发无权限拦截 -> 智能角色推荐 -> 一键自助申请”的 C 端化顺滑体验链路，彻底解决内部“找角色难”的顽疾，每月稳定减少1000+冗余人工申请单，极大提升自助审批效能。</li>
-                </ul>
-              </section>
-
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>采购费用评审系统</h4>
-                  <span>采购域 · 风控前置</span>
-                </div>
-                <ul>
-                  <li>机制设计：建立“立项-采购执行-结项”全链路管理体系，将单纯的风控节点前置为业务决策引擎。独立设计6档评分制与背对背打分机制，基于各业务场景，适配线下/线上差异化审批流。</li>
-                  <li>数据赋能与成果：实现公司80%+的核心采购资金流转线上化与风控闭环，为次年数亿级预算分配提供量化基石。决策异议率从1.7%提升至10.3%（有效拦截低优/高风险项目，提升资金ROI），评审效率提升60%。</li>
-                </ul>
-              </section>
-            </div>
-          </article>
-
-          <article class="company">
-            <div class="company-head">
-              <div>
-                <h3>上海宝珊瑚信息科技（链家/贝壳）</h3>
-                <p>产品经理</p>
-              </div>
-              <time>2018.11 - 2021.07 <span>2年8个月</span></time>
-            </div>
-            <div class="project-list compact">
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>财务电子档案平台</h4>
-                  <span>财务域</span>
-                </div>
-                <p>针对线下材料交接易遗失、难追溯的痛点，主导财务凭证电子化流转与审核作业平台建设，打通业务线与集团财务。</p>
-                <ul>
-                  <li>单月为全国核算团队节省超300人天材料整理成本。</li>
-                </ul>
-              </section>
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>请假系统</h4>
-                  <span>HR / 算薪</span>
-                </div>
-                <p>从0到1架构全集团统一请休假系统，抽象复杂假期结算规则体系，并对接算薪系统。</p>
-                <ul>
-                  <li>取代人工核算，将休假数据处理耗时缩短至毫秒级，成为公司唯一标准数据源。</li>
-                </ul>
-              </section>
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>智能工单服务台</h4>
-                  <span>交易支持</span>
-                </div>
-                <p>搭建面向交易过程的智能派单中台，覆盖风控、财务、系统答疑，并前置外渠机构资质审核流程。</p>
-                <ul>
-                  <li>提升问题分发效率，并有效规避金融合规风险。</li>
-                </ul>
-              </section>
-            </div>
-          </article>
-
-          <article class="company">
-            <div class="company-head">
-              <div>
-                <h3>上海衣脉信息科技</h3>
-                <p>项目经理</p>
-              </div>
-              <time>2017.06 - 2018.11 <span>1年5个月</span></time>
-            </div>
-            <div class="project-list compact">
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>新零售线下门店0-1落地</h4>
-                  <span>战略项目</span>
-                </div>
-                <p>统筹公司最高优先级项目，在紧凑周期内跨域拉通线上研发与线下门店业务团队，制定并推进里程碑计划。</p>
-                <ul>
-                  <li>实现首店准时开业并投入市场运营。</li>
-                </ul>
-              </section>
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>生产线流程标准化与效能优化</h4>
-                  <span>SOP 搭建</span>
-                </div>
-                <p>深入生产一线，从0到1制定生产线全生命周期操作规范，并建立标准工时度量模型。</p>
-                <ul>
-                  <li>通过流程诊断与软硬件协同优化，将核心生产环节效能提升20%-30%。</li>
-                </ul>
-              </section>
-            </div>
-          </article>
-
-          <article class="company">
-            <div class="company-head">
-              <div>
-                <h3>北京京东尚科（1号店）</h3>
-                <p>项目经理</p>
-              </div>
-              <time>2016.03 - 2017.06 <span>1年3个月</span></time>
-            </div>
-            <div class="project-list compact">
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>研发效能平台0-1构建</h4>
-                  <span>效能平台</span>
-                </div>
-                <p>主导技术部独立质量管理平台开发，统一数据度量入口，并引入敏捷管理理念。</p>
-                <ul>
-                  <li>将 QA 团队核心指标数据统计耗时从每周1小时缩减至1分钟。</li>
-                </ul>
-              </section>
-              <section class="resume-project">
-                <div class="project-title">
-                  <h4>IT 合规与安全审计保障</h4>
-                  <span>外部审计</span>
-                </div>
-                <p>作为技术部唯一对外接口人，统筹安永（EY）年度外部审计项目，完成 ITGC/ITAC 材料收集、脱敏与整改闭环。</p>
-                <ul>
-                  <li>确保系统安全零风险通过审计。</li>
-                </ul>
-              </section>
-            </div>
-          </article>
-        </div>
-      </section>
-
+    <main>
+<h1 id="ai-产品经理系统化学习手册">AI 产品经理系统化学习手册</h1>
+<p>适用对象：正在准备 AI 产品经理、互联网产品经理转 AI、希望系统理解 AI 产品方法论的人。</p>
+<p>核心目标：你不需要成为算法工程师，但要能判断 AI 能不能做、怎么做、效果如何衡量、成本和风险在哪里，以及如何把模型能力包装成稳定可用的产品体验。</p>
+<hr>
+<h2 id="1-ai-产品经理的能力定位">1. AI 产品经理的能力定位</h2>
+<p>一个“懂 AI”的产品经理，不是只会说大模型、RAG、Agent，而是能把 AI 能力和业务场景连接起来。</p>
+<p>你需要具备 5 类能力：</p>
+<ol>
+<li>AI 基础认知：知道大模型、Embedding、RAG、微调、Agent 等概念是什么意思。</li>
+<li>场景判断能力：能判断一个需求是否适合用 AI，以及适合用哪种技术路径。</li>
+<li>产品设计能力：能设计输入、输出、交互、反馈、兜底和人机协作流程。</li>
+<li>技术协作能力：能和算法、后端、前端、数据、运营有效沟通。</li>
+<li>效果评估能力：能定义 AI 功能是否真的“好用”，而不只是“能跑”。</li>
+</ol>
+<p>面试表达：</p>
+<blockquote>
+<p>我理解 AI 产品经理的核心，不是简单接入模型，而是围绕具体业务场景，设计数据、Prompt、检索、评测、反馈和兜底机制，把不确定的模型能力转化为稳定可用的用户体验。</p>
+</blockquote>
+<hr>
+<h2 id="2-必懂基础概念">2. 必懂基础概念</h2>
+<h3 id="2-1-ai-机器学习-深度学习-生成式-ai">2.1 AI、机器学习、深度学习、生成式 AI</h3>
+<p>AI 是一个大概念，指让机器表现出类似人类智能的能力。</p>
+<p>机器学习是 AI 的一种方法，让机器从数据中学习规律。</p>
+<p>深度学习是机器学习的一种方法，使用神经网络处理复杂数据。</p>
+<p>生成式 AI 是 AI 的一个方向，可以生成文本、图片、音频、视频、代码等内容。</p>
+<p>大语言模型，也就是 LLM，是生成式 AI 中最重要的一类模型，擅长处理和生成自然语言。</p>
+<h3 id="2-2-token">2.2 Token</h3>
+<p>Token 可以理解为模型处理文本时的基本单位。它不完全等于一个字或一个词。</p>
+<p>在中文里，一个汉字、一个词、标点符号都可能被拆成不同 token。</p>
+<p>Token 会影响 3 件事：</p>
+<ul>
+<li>成本：很多模型按输入和输出 token 数收费。</li>
+<li>上下文长度：模型一次能处理的内容有限。</li>
+<li>响应速度：token 越多，通常越慢。</li>
+</ul>
+<p>产品经理需要关心：功能是否会产生大量文本输入和输出，成本是否可控。</p>
+<h3 id="2-3-temperature">2.3 Temperature</h3>
+<p>Temperature 是控制模型输出随机性的参数。</p>
+<p>温度越低，输出越稳定、保守、可复现。适合分类、信息抽取、JSON 输出、客服标准回复。</p>
+<p>温度越高，输出越发散、有创造性。适合创意文案、头脑风暴、故事生成。</p>
+<p>常见建议：</p>
+<ul>
+<li>稳定任务：0 到 0.3</li>
+<li>一般问答：0.3 到 0.7</li>
+<li>创意任务：0.7 到 1.0+</li>
+</ul>
+<h3 id="2-4-prompt">2.4 Prompt</h3>
+<p>Prompt 是给模型的指令。它决定模型要扮演什么角色、完成什么任务、遵循什么约束、输出什么格式。</p>
+<p>一个好的 Prompt 通常包含：</p>
+<ul>
+<li>角色：你是谁</li>
+<li>任务：你要做什么</li>
+<li>背景：你需要知道什么</li>
+<li>约束：不能做什么，必须遵守什么</li>
+<li>输出格式：用什么结构输出</li>
+<li>示例：给模型参考样例</li>
+</ul>
+<p>示例：</p>
+<pre><code>你是一名资深 AI 产品经理。
+请根据以下用户需求，判断是否适合用大模型解决。
+请从业务价值、技术可行性、数据依赖、风险和 MVP 方案五个角度分析。
+输出使用 Markdown 表格。</code></pre>
+<h3 id="2-5-few-shot">2.5 Few-shot</h3>
+<p>Few-shot 是在 Prompt 里给模型几个示例，让模型学习输出模式。</p>
+<p>适合用于：</p>
+<ul>
+<li>固定格式输出</li>
+<li>分类任务</li>
+<li>文案风格统一</li>
+<li>客服回答规范</li>
+<li>信息抽取</li>
+</ul>
+<h3 id="2-6-embedding">2.6 Embedding</h3>
+<p>Embedding 是把文本、图片等内容转成向量，也就是一串数字。</p>
+<p>它的作用是让机器能够计算内容之间的语义相似度。</p>
+<p>典型应用：</p>
+<ul>
+<li>语义搜索</li>
+<li>推荐系统</li>
+<li>相似问题匹配</li>
+<li>知识库问答</li>
+<li>用户意图识别</li>
+</ul>
+<h3 id="2-7-向量数据库">2.7 向量数据库</h3>
+<p>向量数据库用于存储和检索 Embedding。</p>
+<p>当用户提问时，系统会把问题转成向量，然后从向量数据库里找最相似的知识片段。</p>
+<p>常见用途：</p>
+<ul>
+<li>企业知识库</li>
+<li>智能客服</li>
+<li>文档问答</li>
+<li>法律、医疗、金融资料检索</li>
+</ul>
+<h3 id="2-8-rag">2.8 RAG</h3>
+<p>RAG 全称 Retrieval-Augmented Generation，即检索增强生成。</p>
+<p>它的核心思想是：不要只依赖模型记忆，而是先从知识库里检索相关资料，再让模型基于资料回答。</p>
+<p>基本流程：</p>
+<ol>
+<li>收集文档</li>
+<li>文档清洗</li>
+<li>文档切片</li>
+<li>转成向量</li>
+<li>存入向量数据库</li>
+<li>用户提问</li>
+<li>检索相关片段</li>
+<li>拼接到 Prompt</li>
+<li>模型生成答案</li>
+</ol>
+<p>RAG 适合：</p>
+<ul>
+<li>企业内部知识库</li>
+<li>客服问答</li>
+<li>政策法规查询</li>
+<li>产品文档问答</li>
+<li>需要引用来源的场景</li>
+</ul>
+<p>RAG 不适合：</p>
+<ul>
+<li>完全没有可用知识资料的场景</li>
+<li>需要复杂实时决策的场景</li>
+<li>数据质量极差且无法清洗的场景</li>
+</ul>
+<h3 id="2-9-fine-tuning">2.9 Fine-tuning</h3>
+<p>Fine-tuning 是对模型进行微调，让模型更适应特定任务或风格。</p>
+<p>适合：</p>
+<ul>
+<li>固定风格生成</li>
+<li>特定领域术语</li>
+<li>高一致性分类</li>
+<li>大量稳定训练数据</li>
+</ul>
+<p>不适合：</p>
+<ul>
+<li>只是想让模型知道新知识</li>
+<li>数据量很少</li>
+<li>业务规则频繁变化</li>
+<li>需要快速验证 MVP</li>
+</ul>
+<p>面试常问：RAG 和微调怎么选？</p>
+<p>答案：</p>
+<p>如果问题是“模型不知道某些知识”，优先考虑 RAG。</p>
+<p>如果问题是“模型输出风格、格式、行为不稳定”，可以考虑 Prompt、Few-shot 或微调。</p>
+<h3 id="2-10-agent">2.10 Agent</h3>
+<p>Agent 是让模型具备目标规划、工具调用和多步骤执行能力的系统。</p>
+<p>例如：用户说“帮我分析上周销售数据并生成周报”，Agent 可能会调用数据库、分析工具、文档工具，最后生成报告。</p>
+<p>Agent 的价值：</p>
+<ul>
+<li>自动完成复杂任务</li>
+<li>串联多个工具</li>
+<li>减少人工操作步骤</li>
+</ul>
+<p>Agent 的风险：</p>
+<ul>
+<li>执行链路不稳定</li>
+<li>过程难以预测</li>
+<li>成本和延迟高</li>
+<li>需要权限、安全和兜底机制</li>
+</ul>
+<hr>
+<h2 id="3-ai-产品常见应用场景">3. AI 产品常见应用场景</h2>
+<h3 id="3-1-内容生成">3.1 内容生成</h3>
+<p>典型场景：</p>
+<ul>
+<li>营销文案</li>
+<li>商品描述</li>
+<li>小红书/抖音文案</li>
+<li>邮件生成</li>
+<li>报告生成</li>
+<li>会议纪要</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>风格是否统一</li>
+<li>是否支持编辑和重写</li>
+<li>是否有敏感词和合规审核</li>
+<li>是否支持用户反馈</li>
+</ul>
+<h3 id="3-2-信息理解">3.2 信息理解</h3>
+<p>典型场景：</p>
+<ul>
+<li>意图识别</li>
+<li>文本分类</li>
+<li>简历解析</li>
+<li>合同条款抽取</li>
+<li>工单标签化</li>
+<li>舆情分析</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>准确率</li>
+<li>错误成本</li>
+<li>是否需要人工复核</li>
+<li>输出格式是否稳定</li>
+</ul>
+<h3 id="3-3-知识库问答">3.3 知识库问答</h3>
+<p>典型场景：</p>
+<ul>
+<li>企业内部知识库</li>
+<li>智能客服</li>
+<li>产品帮助中心</li>
+<li>政策问答</li>
+<li>售前支持</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>知识是否完整</li>
+<li>答案是否有引用来源</li>
+<li>不知道时是否会承认不知道</li>
+<li>用户是否能追问</li>
+<li>是否能转人工</li>
+</ul>
+<h3 id="3-4-决策辅助">3.4 决策辅助</h3>
+<p>典型场景：</p>
+<ul>
+<li>数据分析助手</li>
+<li>经营分析</li>
+<li>用户洞察</li>
+<li>销售线索评分</li>
+<li>风险预警</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>数据来源是否可靠</li>
+<li>结论是否可解释</li>
+<li>是否能追溯依据</li>
+<li>是否只是建议而非自动决策</li>
+</ul>
+<h3 id="3-5-自动执行">3.5 自动执行</h3>
+<p>典型场景：</p>
+<ul>
+<li>自动填表</li>
+<li>自动生成工单</li>
+<li>自动创建日程</li>
+<li>自动发送邮件</li>
+<li>自动调用业务系统</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>权限控制</li>
+<li>操作确认</li>
+<li>日志记录</li>
+<li>撤销机制</li>
+<li>异常兜底</li>
+</ul>
+<h3 id="3-6-多模态">3.6 多模态</h3>
+<p>典型场景：</p>
+<ul>
+<li>图片理解</li>
+<li>OCR</li>
+<li>语音转文字</li>
+<li>视频摘要</li>
+<li>设计稿理解</li>
+<li>医学影像辅助</li>
+</ul>
+<p>产品关注点：</p>
+<ul>
+<li>输入质量</li>
+<li>输出置信度</li>
+<li>隐私合规</li>
+<li>多模态成本</li>
+</ul>
+<hr>
+<h2 id="4-ai-产品设计方法">4. AI 产品设计方法</h2>
+<h3 id="4-1-判断需求是否适合-ai">4.1 判断需求是否适合 AI</h3>
+<p>可以从 5 个问题判断：</p>
+<ol>
+<li>这个任务是否需要理解、生成、归纳、推理或模式识别？</li>
+<li>传统规则系统能不能更稳定、更便宜地解决？</li>
+<li>是否有足够的数据或知识库支撑？</li>
+<li>模型出错的代价是否可接受？</li>
+<li>用户是否愿意接受 AI 参与这个流程？</li>
+</ol>
+<p>适合 AI 的任务通常具备：</p>
+<ul>
+<li>输入不完全标准化</li>
+<li>需要处理自然语言</li>
+<li>需要归纳总结</li>
+<li>需要生成内容</li>
+<li>人工处理成本高</li>
+<li>有明确的人工参考答案</li>
+</ul>
+<p>不适合 AI 的任务通常具备：</p>
+<ul>
+<li>强确定性</li>
+<li>强合规</li>
+<li>低容错</li>
+<li>规则非常简单</li>
+<li>没有数据支撑</li>
+</ul>
+<h3 id="4-2-ai-功能设计框架">4.2 AI 功能设计框架</h3>
+<p>设计一个 AI 功能，可以按这个结构：</p>
+<ol>
+<li>用户目标：用户最终想完成什么？</li>
+<li>输入设计：用户需要提供什么信息？</li>
+<li>上下文设计：系统需要补充什么业务背景？</li>
+<li>模型任务：模型具体负责哪一步？</li>
+<li>输出设计：输出结构、格式、粒度是什么？</li>
+<li>交互设计：用户如何编辑、确认、追问、反馈？</li>
+<li>失败兜底：模型答错、不知道、超时怎么办？</li>
+<li>效果评估：如何判断功能是否有效？</li>
+<li>成本控制：如何控制 token、延迟和调用次数？</li>
+<li>安全合规：如何处理隐私、敏感内容和权限？</li>
+</ol>
+<h3 id="4-3-ai-产品体验原则">4.3 AI 产品体验原则</h3>
+<ol>
+<li>不要让用户面对一个空白输入框。</li>
+<li>给用户明确的任务入口，而不是只给“你想问什么”。</li>
+<li>输出要可编辑、可复制、可追溯。</li>
+<li>关键操作前需要用户确认。</li>
+<li>AI 不确定时要允许它说“不知道”。</li>
+<li>对高风险场景增加人工复核。</li>
+<li>给用户反馈入口，让系统持续变好。</li>
+</ol>
+<hr>
+<h2 id="5-ai-效果评估方法">5. AI 效果评估方法</h2>
+<h3 id="5-1-为什么-ai-产品必须做评测">5.1 为什么 AI 产品必须做评测</h3>
+<p>传统软件通常是确定性的：输入 A，输出 B。</p>
+<p>AI 产品是概率性的：同样输入可能得到不同输出。</p>
+<p>所以 AI 产品不能只看 Demo，而要持续评测。</p>
+<h3 id="5-2-核心指标">5.2 核心指标</h3>
+<p>常见指标：</p>
+<ul>
+<li>准确率：答案是否正确</li>
+<li>相关性：是否回答了用户问题</li>
+<li>完整性：是否覆盖关键点</li>
+<li>一致性：多次回答是否稳定</li>
+<li>幻觉率：是否编造事实</li>
+<li>引用准确率：引用来源是否真实有效</li>
+<li>拒答准确率：该拒答时是否拒答</li>
+<li>用户满意度：用户是否觉得有用</li>
+<li>任务完成率：用户是否完成目标</li>
+<li>响应时间：是否足够快</li>
+<li>单次成本：token 和模型调用成本是否可控</li>
+</ul>
+<h3 id="5-3-黄金测试集">5.3 黄金测试集</h3>
+<p>黄金测试集是 AI 产品经理非常重要的工具。</p>
+<p>做法：</p>
+<ol>
+<li>收集真实用户问题。</li>
+<li>选出高频、重要、容易出错的问题。</li>
+<li>标注标准答案或理想输出。</li>
+<li>定义评分标准。</li>
+<li>每次改 Prompt、模型或知识库后重新测试。</li>
+</ol>
+<p>初期建议准备 50 到 200 条测试样本。</p>
+<p>样本类型要覆盖：</p>
+<ul>
+<li>高频问题</li>
+<li>边界问题</li>
+<li>模糊问题</li>
+<li>恶意问题</li>
+<li>超出知识库的问题</li>
+<li>需要拒答的问题</li>
+</ul>
+<h3 id="5-4-ai-问答评分表">5.4 AI 问答评分表</h3>
+<div class="table-wrap"><table><thead><tr><th>维度</th><th>评分标准</th></tr></thead><tbody><tr><td>准确性</td><td>是否符合事实</td></tr><tr><td>相关性</td><td>是否围绕用户问题</td></tr><tr><td>完整性</td><td>是否覆盖关键点</td></tr><tr><td>可读性</td><td>表达是否清晰</td></tr><tr><td>可追溯性</td><td>是否能提供来源</td></tr><tr><td>安全性</td><td>是否避免敏感或违规内容</td></tr><tr><td>稳定性</td><td>多次输出是否一致</td></tr></tbody></table></div>
+<hr>
+<h2 id="6-降低幻觉的方法">6. 降低幻觉的方法</h2>
+<p>幻觉是指模型生成看似合理但实际错误的信息。</p>
+<p>常见原因：</p>
+<ul>
+<li>模型没有相关知识</li>
+<li>Prompt 太模糊</li>
+<li>上下文不足</li>
+<li>检索资料不准确</li>
+<li>模型被要求必须回答</li>
+</ul>
+<p>降低幻觉的方法：</p>
+<ol>
+<li>使用 RAG，让模型基于真实资料回答。</li>
+<li>要求模型引用来源。</li>
+<li>明确要求“不知道就说不知道”。</li>
+<li>限制回答范围。</li>
+<li>对结构化数据使用工具或数据库查询。</li>
+<li>关键场景加入人工审核。</li>
+<li>建立评测集持续测试。</li>
+<li>对输出做规则校验。</li>
+</ol>
+<p>示例 Prompt：</p>
+<pre><code>请仅根据提供的资料回答问题。
+如果资料中没有答案，请回答“根据当前资料无法判断”。
+不要编造资料中不存在的信息。
+回答时请列出依据来自哪一段资料。</code></pre>
+<hr>
+<h2 id="7-ai-产品技术方案速查">7. AI 产品技术方案速查</h2>
+<h3 id="7-1-prompt-engineering">7.1 Prompt Engineering</h3>
+<p>适合：</p>
+<ul>
+<li>快速验证</li>
+<li>控制输出格式</li>
+<li>改善回答质量</li>
+<li>低成本优化</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>快</li>
+<li>成本低</li>
+<li>易迭代</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>稳定性有限</li>
+<li>复杂任务容易失控</li>
+</ul>
+<h3 id="7-2-rag">7.2 RAG</h3>
+<p>适合：</p>
+<ul>
+<li>知识库问答</li>
+<li>企业内部资料</li>
+<li>需要引用来源</li>
+<li>知识经常更新</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>知识可更新</li>
+<li>可追溯</li>
+<li>比微调更灵活</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>依赖文档质量</li>
+<li>检索失败会影响答案</li>
+<li>需要处理切片、召回、排序</li>
+</ul>
+<h3 id="7-3-fine-tuning">7.3 Fine-tuning</h3>
+<p>适合：</p>
+<ul>
+<li>固定风格</li>
+<li>稳定分类</li>
+<li>大量高质量样本</li>
+<li>专业任务模式学习</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>输出更一致</li>
+<li>可减少 Prompt 长度</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>成本高</li>
+<li>周期长</li>
+<li>不适合频繁更新知识</li>
+</ul>
+<h3 id="7-4-tool-calling">7.4 Tool Calling</h3>
+<p>适合：</p>
+<ul>
+<li>查天气</li>
+<li>查订单</li>
+<li>查库存</li>
+<li>查询数据库</li>
+<li>调用业务系统</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>能获取实时信息</li>
+<li>能执行实际操作</li>
+<li>比让模型猜答案更可靠</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>需要接口和权限</li>
+<li>需要错误处理</li>
+<li>高风险操作要确认</li>
+</ul>
+<h3 id="7-5-agent">7.5 Agent</h3>
+<p>适合：</p>
+<ul>
+<li>多步骤任务</li>
+<li>跨工具自动化</li>
+<li>办公自动化</li>
+<li>复杂流程协同</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>自动化程度高</li>
+<li>能减少人工步骤</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>不稳定</li>
+<li>成本高</li>
+<li>难调试</li>
+<li>安全要求高</li>
+</ul>
+<hr>
+<h2 id="8-常见面试问题与回答框架">8. 常见面试问题与回答框架</h2>
+<h3 id="q1-你怎么理解-ai-产品经理">Q1：你怎么理解 AI 产品经理？</h3>
+<p>回答框架：</p>
+<p>AI 产品经理需要理解模型能力边界，把业务需求拆解成适合 AI 处理的任务，并通过数据、Prompt、模型、检索、评测和交互设计，把 AI 能力变成稳定可用的产品。</p>
+<h3 id="q2-rag-和微调怎么选">Q2：RAG 和微调怎么选？</h3>
+<p>回答框架：</p>
+<p>如果需求是让模型掌握外部知识或企业私有知识，优先 RAG。因为知识可以更新，并且可以引用来源。</p>
+<p>如果需求是让模型学习固定输出风格、任务模式或分类标准，并且有大量高质量样本，可以考虑微调。</p>
+<p>实际项目中通常先用 Prompt 和 RAG 做 MVP，验证有效后再考虑微调。</p>
+<h3 id="q3-如何降低大模型幻觉">Q3：如何降低大模型幻觉？</h3>
+<p>回答框架：</p>
+<p>可以从输入、检索、生成和评测四层处理。</p>
+<p>输入层明确问题和约束；检索层提供可信资料；生成层要求基于资料回答、不知道就拒答；评测层建立测试集，持续监控幻觉率。高风险场景还需要人工审核和操作确认。</p>
+<h3 id="q4-如何评估一个-ai-客服是否好用">Q4：如何评估一个 AI 客服是否好用？</h3>
+<p>回答框架：</p>
+<p>我会同时看业务指标和模型指标。</p>
+<p>业务指标包括问题解决率、转人工率、用户满意度、平均响应时长、客服成本降低比例。</p>
+<p>模型指标包括答案准确率、召回率、幻觉率、拒答准确率、引用准确率和稳定性。</p>
+<p>同时需要按问题类型拆分评估，例如售前咨询、售后问题、退款问题、投诉问题。</p>
+<h3 id="q5-如果让你设计一个企业知识库-ai-问答产品-你怎么做">Q5：如果让你设计一个企业知识库 AI 问答产品，你怎么做？</h3>
+<p>回答框架：</p>
+<p>第一步明确用户场景和知识范围。</p>
+<p>第二步整理文档，做清洗、切片、权限标记和向量化。</p>
+<p>第三步搭建 RAG 问答链路，让模型基于检索内容回答并引用来源。</p>
+<p>第四步设计追问、反馈、纠错、转人工和找不到答案的兜底。</p>
+<p>第五步建立黄金测试集，持续评估准确率、幻觉率、响应速度和用户满意度。</p>
+<h3 id="q6-ai-产品和传统产品最大的不同是什么">Q6：AI 产品和传统产品最大的不同是什么？</h3>
+<p>回答框架：</p>
+<p>传统产品更多是确定性逻辑，AI 产品是概率性输出。AI 产品经理除了设计流程，还要设计模型输入输出、效果评测、失败兜底、用户信任和持续迭代机制。</p>
+<h3 id="q7-为什么很多-ai-demo-看起来很好-但产品化很难">Q7：为什么很多 AI Demo 看起来很好，但产品化很难？</h3>
+<p>回答框架：</p>
+<p>因为 Demo 通常只展示理想输入下的效果，而真实用户输入复杂、数据质量参差不齐、模型输出不稳定，还会涉及权限、成本、延迟、安全、评测和异常处理。产品化的难点在于稳定性、可控性和可运营性。</p>
+<hr>
+<h2 id="9-ai-产品案例拆解模板">9. AI 产品案例拆解模板</h2>
+<p>拆解任何 AI 产品，可以按这个模板：</p>
+<ol>
+<li>产品名称：是什么产品？</li>
+<li>目标用户：服务谁？</li>
+<li>核心场景：解决什么问题？</li>
+<li>AI 能力：用了生成、理解、检索、推荐还是自动执行？</li>
+<li>输入设计：用户如何给信息？</li>
+<li>输出设计：AI 产出什么？</li>
+<li>交互设计：用户如何修改、确认、追问？</li>
+<li>技术路径：可能用了 Prompt、RAG、微调、Agent、Tool Calling 哪些方案？</li>
+<li>评估指标：怎么判断它做得好？</li>
+<li>风险问题：幻觉、隐私、成本、延迟、错误责任在哪里？</li>
+<li>可优化点：如果你是 PM，会怎么改？</li>
+</ol>
+<p>推荐拆解产品：</p>
+<ul>
+<li>ChatGPT</li>
+<li>Perplexity</li>
+<li>Notion AI</li>
+<li>Cursor</li>
+<li>GitHub Copilot</li>
+<li>飞书智能伙伴</li>
+<li>钉钉 AI 助理</li>
+<li>企业微信智能客服</li>
+<li>Dify</li>
+<li>Coze</li>
+<li>Midjourney</li>
+<li>Canva AI</li>
+</ul>
+<hr>
+<h2 id="10-四周学习计划">10. 四周学习计划</h2>
+<h3 id="第-1-周-建立基础概念">第 1 周：建立基础概念</h3>
+<p>目标：能听懂 AI 产品讨论中的核心术语。</p>
+<p>学习内容：</p>
+<ul>
+<li>LLM</li>
+<li>Token</li>
+<li>Prompt</li>
+<li>Temperature</li>
+<li>Embedding</li>
+<li>向量数据库</li>
+<li>RAG</li>
+<li>Fine-tuning</li>
+<li>Agent</li>
+<li>Tool Calling</li>
+</ul>
+<p>产出：</p>
+<ul>
+<li>整理一份 AI 术语表。</li>
+<li>每个概念用自己的话解释一遍。</li>
+<li>准备 10 个面试高频概念题。</li>
+</ul>
+<h3 id="第-2-周-拆解-ai-产品">第 2 周：拆解 AI 产品</h3>
+<p>目标：建立 AI 产品 sense。</p>
+<p>学习内容：</p>
+<ul>
+<li>每天拆 1 个 AI 产品</li>
+<li>重点看场景、交互、输出质量、商业价值</li>
+</ul>
+<p>产出：</p>
+<ul>
+<li>至少完成 5 个产品拆解。</li>
+<li>每个拆解用同一个模板，方便横向比较。</li>
+</ul>
+<h3 id="第-3-周-做一个-ai-原型">第 3 周：做一个 AI 原型</h3>
+<p>目标：有一个能讲清楚的实战项目。</p>
+<p>推荐项目：</p>
+<ul>
+<li>AI 简历优化助手</li>
+<li>企业知识库问答助手</li>
+<li>AI 客服助手</li>
+<li>商品文案生成器</li>
+<li>会议纪要总结工具</li>
+<li>用户反馈分类助手</li>
+</ul>
+<p>产出：</p>
+<ul>
+<li>产品需求文档 PRD</li>
+<li>核心流程图</li>
+<li>Prompt 设计</li>
+<li>评测集</li>
+<li>Demo 或原型截图</li>
+</ul>
+<h3 id="第-4-周-面试表达训练">第 4 周：面试表达训练</h3>
+<p>目标：把学习内容转化成面试答案。</p>
+<p>准备内容：</p>
+<ul>
+<li>1 分钟自我介绍里的 AI 经历</li>
+<li>1 个 AI 项目深挖案例</li>
+<li>5 个 AI 产品拆解案例</li>
+<li>10 道 AI 高频面试题</li>
+<li>1 套 AI 产品设计题回答框架</li>
+</ul>
+<hr>
+<h2 id="11-ai-产品经理必备技能清单">11. AI 产品经理必备技能清单</h2>
+<p>基础认知：</p>
+<ul>
+<li>能解释 LLM、Token、Prompt、Embedding、RAG、Fine-tuning、Agent</li>
+<li>理解模型随机性、上下文窗口、幻觉和成本</li>
+</ul>
+<p>产品设计：</p>
+<ul>
+<li>会判断 AI 场景是否成立</li>
+<li>会设计 AI 输入、输出、交互和反馈</li>
+<li>会设计异常兜底和人工审核</li>
+<li>会设计人机协作流程</li>
+</ul>
+<p>技术协作：</p>
+<ul>
+<li>能画出 RAG 基本架构图</li>
+<li>能和研发讨论 API、数据库、检索、延迟和成本</li>
+<li>能理解模型调用链路</li>
+<li>能判断 Prompt、RAG、微调、Agent 的适用场景</li>
+</ul>
+<p>评测运营：</p>
+<ul>
+<li>会设计黄金测试集</li>
+<li>会定义准确率、幻觉率、解决率、转人工率等指标</li>
+<li>会根据日志和用户反馈迭代</li>
+</ul>
+<p>面试表达：</p>
+<ul>
+<li>能讲清楚一个 AI 项目</li>
+<li>能拆解一个 AI 产品</li>
+<li>能回答 RAG vs 微调</li>
+<li>能回答如何降低幻觉</li>
+<li>能回答如何评估 AI 产品效果</li>
+</ul>
+<hr>
+<h2 id="12-推荐练习题">12. 推荐练习题</h2>
+<h3 id="练习-1-概念解释">练习 1：概念解释</h3>
+<p>请用自己的话解释：</p>
+<ul>
+<li>什么是 Token？</li>
+<li>什么是 Embedding？</li>
+<li>什么是 RAG？</li>
+<li>什么是 Fine-tuning？</li>
+<li>什么是 Agent？</li>
+<li>Temperature 调高和调低有什么区别？</li>
+</ul>
+<h3 id="练习-2-场景判断">练习 2：场景判断</h3>
+<p>判断以下需求是否适合用 AI，并说明原因：</p>
+<ol>
+<li>自动生成日报</li>
+<li>用户登录验证码校验</li>
+<li>企业制度问答</li>
+<li>财务付款审批</li>
+<li>商品评论情感分析</li>
+<li>自动生成营销海报文案</li>
+</ol>
+<h3 id="练习-3-产品设计">练习 3：产品设计</h3>
+<p>设计一个“AI 客服助手”，回答：</p>
+<ol>
+<li>目标用户是谁？</li>
+<li>核心场景是什么？</li>
+<li>数据来源有哪些？</li>
+<li>技术方案选 RAG、微调还是 Agent？</li>
+<li>如何降低幻觉？</li>
+<li>如何评估效果？</li>
+<li>失败时如何兜底？</li>
+</ol>
+<h3 id="练习-4-面试表达">练习 4：面试表达</h3>
+<p>用 2 分钟回答：</p>
+<blockquote>
+<p>如果让你设计一个企业知识库 AI 问答产品，你会怎么做？</p>
+</blockquote>
+<p>要求包含：</p>
+<ul>
+<li>用户场景</li>
+<li>技术方案</li>
+<li>产品交互</li>
+<li>评测指标</li>
+<li>风险兜底</li>
+</ul>
+<hr>
+<h2 id="13-面试速记版">13. 面试速记版</h2>
+<p>AI 产品经理最重要的 6 个关键词：</p>
+<ol>
+<li>场景：不是所有需求都适合 AI。</li>
+<li>数据：AI 效果高度依赖数据和知识质量。</li>
+<li>Prompt：决定模型任务和输出边界。</li>
+<li>RAG：解决私有知识和可追溯问题。</li>
+<li>评测：AI 产品必须持续测试，不只看 Demo。</li>
+<li>兜底：模型不稳定，所以产品要设计失败路径。</li>
+</ol>
+<p>最值得背下来的表达：</p>
+<blockquote>
+<p>AI 产品的关键不是模型本身，而是围绕业务场景建立一套“输入约束、知识补充、模型生成、结果校验、用户反馈、异常兜底”的完整系统。</p>
+</blockquote>
+<hr>
+<h2 id="14-继续学习路线">14. 继续学习路线</h2>
+<p>如果你时间有限，优先顺序是：</p>
+<ol>
+<li>先学 LLM、Prompt、Token、Embedding、RAG。</li>
+<li>再学 AI 产品设计和评测方法。</li>
+<li>然后拆解 5 个 AI 产品。</li>
+<li>最后做一个能讲清楚的 AI 原型项目。</li>
+</ol>
+<p>如果你要冲面试，最重要的是准备：</p>
+<ul>
+<li>一个 AI 项目案例</li>
+<li>一个 AI 产品拆解案例</li>
+<li>一套 AI 客服或知识库问答设计方案</li>
+<li>RAG、微调、Agent 的区别</li>
+<li>降低幻觉和评估效果的方法</li>
+</ul>
     </main>
-  </body>
+    <p class="footer">Generated from Markdown. Last updated: 2026-05-12.</p>
+  </div>
+</body>
 </html>
